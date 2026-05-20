@@ -7,7 +7,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
     <div class="container">
 
       <nav class="navbar">
-        <h1 class="logo">Lupidy</h1>
+        <h1 class="logo">Lupita Ramirez</h1>
 
         <ul class="menu">
           <li>Inicio</li>
@@ -23,8 +23,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <h2>Bienvenido a Lupidy</h2>
 
           <p>
-            Una aplicación moderna diseñada para ayudarte
-            a conectar tecnología, innovación y bienestar.
+            Una aplicación moderna diseñada para ayudarte.
           </p>
 
           <button>Comenzar</button>
