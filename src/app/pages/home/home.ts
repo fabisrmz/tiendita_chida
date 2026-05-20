@@ -20,11 +20,11 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <section class="hero">
 
         <div class="content">
-          <h2>Bienvenido a Lupidy</h2>
+          <h2>Bienvenido a Lupis</h2>
 
           <p>
-            Una aplicación moderna diseñada para ayudarte
-            a conectar tecnología, innovación y bienestar.
+            Una aplicación moderna diseñada para ayudarte.
+
           </p>
 
           <button>Comenzar</button>
