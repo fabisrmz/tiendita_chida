@@ -21,9 +21,9 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
         <div class="content">
 
-          <h1>CAMBIOS DESDE REMOTO>
+          <h1>CAMBIOS DESDE REMOTO</h1>
           <h2>Bienvenido a Lupis</h2>
-          
+
 
           <p>
             Una aplicación moderna diseñada para ayudarte.
