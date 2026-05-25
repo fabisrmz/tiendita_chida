@@ -1,6 +1,6 @@
 #TienditaChida
 
-Bienvenido a **TienditaChida**, un proyecto desarrollado con Angular 🚀  
+Bienvenido a **TienditaChida**, un proyecto desarrollado con Angular
 Esta aplicación fue creada como práctica de desarrollo web moderno utilizando componentes, rutas y estilos personalizados.
 
 ##Tecnologías utilizadas
