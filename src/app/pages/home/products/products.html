@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Productos</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        table{
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td{
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th{
+            background-color: #0077cc;
+            color: white;
+        }
+
+        tr:nth-child(even){
+            background-color: #f2f2f2;
+        }
+
+        tr:hover{
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align:center;">Tabla de Productos</h2>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Stock</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Laptop</td>
+            <td>$15,000</td>
+            <td>5</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Mouse</td>
+            <td>$250</td>
+            <td>20</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Teclado</td>
+            <td>$600</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Monitor</td>
+            <td>$3,500</td>
+            <td>7</td>
+        </tr>
+    </table>
+
+</body>
+</html>
