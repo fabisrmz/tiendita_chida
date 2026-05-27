@@ -103,3 +103,38 @@ button:hover {
     font-size: 40px;
   }
 }
+.auth-buttons{
+  display: flex;
+  gap: 10px;
+}
+
+.login-btn{
+  background: white;
+  color: #6d28d9;
+  border: 2px solid #6d28d9;
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.login-btn:hover{
+  background: #6d28d9;
+  color: white;
+}
+
+.register-btn{
+  background: linear-gradient(to right, #3b82f6, #9333ea);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.register-btn:hover{
+  opacity: .9;
+}

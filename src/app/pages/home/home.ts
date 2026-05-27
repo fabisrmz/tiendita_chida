@@ -8,11 +8,20 @@ import { RouterLink } from '@angular/router';
   template: `
     <div class="container">
 
+      <!-- NAVBAR -->
       <nav class="navbar">
-        <h1 class="logo">Lupita Ramirez</h1>
+
+        <h1 class="logo">
+          Lupita Ramirez
+        </h1>
 
         <ul class="menu">
-          <li><a routerLink="/">Inicio</a></li>
+
+          <li>
+            <a routerLink="/">
+              Inicio
+            </a>
+          </li>
 
           <li>
             <a routerLink="/products">
@@ -20,17 +29,53 @@ import { RouterLink } from '@angular/router';
             </a>
           </li>
 
-          <li><a href="#acerca">Acerca</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+          <li>
+            <a href="#acerca">
+              Acerca
+            </a>
+          </li>
+
+          <li>
+            <a href="#contacto">
+              Contacto
+            </a>
+          </li>
+
         </ul>
+
+        <!-- BOTONES -->
+        <div class="auth-buttons">
+
+          <button
+            class="login-btn"
+            routerLink="/login"
+          >
+            Login
+          </button>
+
+          <button
+            class="register-btn"
+            routerLink="/register"
+          >
+            Register
+          </button>
+
+        </div>
+
       </nav>
 
+      <!-- HERO -->
       <section class="hero">
 
         <div class="content">
 
-          <h1>CAMBIOS DESDE REMOTO</h1>
-          <h2>Bienvenido a Lupis</h2>
+          <h1>
+            CAMBIOS DESDE REMOTO
+          </h1>
+
+          <h2>
+            Bienvenido a Lupis
+          </h2>
 
           <p>
             Una aplicación moderna diseñada para ayudarte.
@@ -43,10 +88,12 @@ import { RouterLink } from '@angular/router';
         </div>
 
         <div class="image">
+
           <img
             src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png"
             alt="Inicio"
           />
+
         </div>
 
       </section>
