@@ -1,0 +1,67 @@
+<div class="p-8 bg-gray-100 min-h-screen">
+
+  <div class="flex justify-between items-center mb-6">
+
+    <h1 class="text-3xl font-bold text-gray-800">
+      Productos
+    </h1>
+
+    <button
+      (click)="openModal()"
+      class="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-lg shadow-md transition"
+    >
+      Agregar producto
+    </button>
+
+  </div>
+
+  <div class="overflow-x-auto bg-white rounded-2xl shadow-lg">
+
+    <table class="w-full border-collapse">
+
+      <thead class="bg-blue-500 text-white">
+
+        <tr>
+          <th class="py-4 px-6 text-left">ID</th>
+          <th class="py-4 px-6 text-left">Nombre</th>
+          <th class="py-4 px-6 text-left">Correo</th>
+        </tr>
+
+      </thead>
+
+      <tbody>
+
+        <tr class="border-b hover:bg-gray-100 transition">
+          <td class="py-4 px-6">1</td>
+          <td class="py-4 px-6">Juan Pérez</td>
+          <td class="py-4 px-6">juan@gmail.com</td>
+        </tr>
+
+        <tr class="border-b hover:bg-gray-100 transition">
+          <td class="py-4 px-6">2</td>
+          <td class="py-4 px-6">Ana López</td>
+          <td class="py-4 px-6">ana@gmail.com</td>
+        </tr>
+
+        <tr class="hover:bg-gray-100 transition">
+          <td class="py-4 px-6">3</td>
+          <td class="py-4 px-6">Carlos Ruiz</td>
+          <td class="py-4 px-6">carlos@gmail.com</td>
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+</div>
+
+@if(showModal){
+
+  <app-modal
+    (close)="closeModal()"
+  ></app-modal>
+
+}
+products html

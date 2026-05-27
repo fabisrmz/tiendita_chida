@@ -1,8 +1,10 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  standalone: true,
+  imports: [RouterLink],
   template: `
     <div class="container">
 
@@ -10,10 +12,16 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <h1 class="logo">Lupita Ramirez</h1>
 
         <ul class="menu">
-          <li>Inicio</li>
-          <li>Servicios</li>
-          <li>Acerca</li>
-          <li>Contacto</li>
+          <li><a routerLink="/">Inicio</a></li>
+
+          <li>
+            <a routerLink="/products">
+              Productos
+            </a>
+          </li>
+
+          <li><a href="#acerca">Acerca</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
 
@@ -24,12 +32,14 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <h1>CAMBIOS DESDE REMOTO</h1>
           <h2>Bienvenido a Lupis</h2>
 
-
           <p>
             Una aplicación moderna diseñada para ayudarte.
           </p>
 
-          <button>Comenzar</button>
+          <button routerLink="/products">
+            Comenzar
+          </button>
+
         </div>
 
         <div class="image">
