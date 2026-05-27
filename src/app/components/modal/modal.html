@@ -1,0 +1,48 @@
+<div class="fixed inset-0 bg-black/50 flex items-center justify-center">
+
+  <div class="bg-white w-[400px] p-6 rounded-xl shadow-xl">
+
+    <div class="flex justify-between items-center mb-4">
+      <h2 class="text-2xl font-bold">
+        Agregar Producto
+      </h2>
+
+      <button
+        (click)="closeModal()"
+        class="text-green-500 text-xl"
+      >
+        X
+      </button>
+    </div>
+
+    <form class="flex flex-col gap-4">
+
+      <input
+        type="text"
+        placeholder="Nombre del producto"
+        class="border p-2 rounded"
+      />
+
+      <input
+        type="number"
+        placeholder="Precio"
+        class="border p-2 rounded"
+      />
+
+      <input
+        type="number"
+        placeholder="Stock"
+        class="border p-2 rounded"
+      />
+
+      <button
+        class="bg-red-500 text-white py-2 rounded"
+      >
+        Guardar
+      </button>
+
+    </form>
+
+  </div>
+
+</div>
